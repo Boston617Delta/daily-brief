@@ -24,6 +24,7 @@ Name the tools your agent should look in. Leave a line blank if you don't use it
 - Projects and tasks: Asana tasks assigned to me, plus `~/notes/projects/`
 - Clients and deliverables: the "Clients" board in Asana, one project per client (or a spreadsheet, a Notion database, a folder per client)
 - Clients on retainer: Acme Dental (SEO, monthly report due the 5th), Northside Bakery (social, 12 posts a month), Harbor Law (ads, weekly report every Friday)
+- Client email addresses: Acme Dental is anyone @acmedental.com; Northside Bakery is owner@northsidebakery.com (the brief matches clients by sender address, so list every address a client writes from)
 - People who always matter: my manager, any client
 - Senders to ignore: newsletters, LinkedIn, receipts
 
