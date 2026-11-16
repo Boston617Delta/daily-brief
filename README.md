@@ -226,6 +226,8 @@ The brief reads and reports. It never replies to or forwards source threads, acc
 
 Credentials, passwords, API keys, tokens, signed links, account numbers, one-time codes, and medical details stay out of settings and briefs. These are instructions to the assistant; scoped tool permissions provide an additional boundary.
 
+If you schedule the brief yourself, let the scheduled run write only the brief file (for example `brief-*.html`), never the folder that holds your scripts or settings. Keep sending in a separate step that mails only to your own address, so nothing in an email can change where the brief goes.
+
 `my-brief.md` is excluded from Git at any depth in this repo. That prevents ordinary accidental commits here; it doesn't keep its contents from the assistant reading it, and another repository needs its own ignore rule. Keep generated briefs and logs outside the repo, such as `~/Briefs`, because they can contain personal and client information. Your assistant and connected services' privacy settings still apply.
 
 The market section is prices and news only. It isn't investment advice.
